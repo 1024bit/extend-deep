@@ -1,8 +1,14 @@
 {
   "name": "extend-deep",
-  "version": "0.1.0",
+  "version": "0.1.3",
   "description": "merge object recursively",
   "main": "index.js",
+  "keywords": [
+    "extend",
+    "deep extend",
+    "deep copy",
+    "merge"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
