@@ -7,7 +7,7 @@
     "extend",
     "deep extend",
     "deep copy",
-    "merge"
+    "merge object"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
