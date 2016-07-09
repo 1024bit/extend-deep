@@ -1,6 +1,6 @@
 {
   "name": "extend-deep",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Clone recursively and merge array && object member.",
   "main": "index.js",
   "keywords": [

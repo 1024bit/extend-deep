@@ -1,7 +1,7 @@
 /**
  *  Merge object recursively, don't impact the sources
  */
-exports = module.exports = function(target) {
+exports = module.exports = function extend(target) {
   var
     sources = [].slice.call(arguments, 1),
     source, k, v, i, typeto, typefrom;
