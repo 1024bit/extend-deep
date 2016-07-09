@@ -1,7 +1,7 @@
 extend-deep
 ===========
 
-Merge object recursively, don't impact the sources
+Clone recursively and merge array && object member.
 
 ## Install
 
@@ -10,6 +10,8 @@ Merge object recursively, don't impact the sources
 ## Usage
 
 ```javascript
+var extend = require("extend-deep");
+
 var obj1 = {
   apple: 0,
   pear: ['yellow', 'red'],

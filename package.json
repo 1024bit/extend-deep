@@ -6,7 +6,7 @@
   "keywords": [
     "extend",
     "deep extend",
-    "deep copy",
+    "deep clone",
     "merge object"
   ],
   "scripts": {
