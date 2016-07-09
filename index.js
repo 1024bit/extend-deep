@@ -13,8 +13,9 @@ exports = module.exports = function extend(target) {
       // <=IE8, Object.prototype.toString.call(undefined|null) return [object Object|Null]
       typeto = (v === undefined || v === null) ? v : ({}).toString.call(v);
       typefrom = (target[k] === undefined || target[k] === null) ? target[k] : ({}).toString.call(target[k]);
-      if ('object' === typeof v) {
-        if ('object' === typeof target[k]) {
+      // Filte `null`
+      if (v && ("object" === typeof v)) {
+        if (target[k] && ("object" === typeof target[k])) {
           if (typeto === typefrom) {
             extend(target[k], v);
           }
